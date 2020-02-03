@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class Student
 
@@ -61,6 +61,7 @@ class Student
 
   def self.create(name, grade)
     student = self.new(name, grade)
+  end
 
   
   def self.create(name, grade)
